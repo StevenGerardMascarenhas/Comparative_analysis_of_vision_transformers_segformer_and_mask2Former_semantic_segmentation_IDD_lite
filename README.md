@@ -28,6 +28,7 @@ The implementation was built using:
  My Full MSc dissertation write-up:
 
 **MscAIML_Dissertation_24044407_Steven_Gerard_Mascarenhas.pdf**
+https://github.com/StevenGerardMascarenhas/Comparative_analysis_of_vision_transformers_segformer_and_mask2Former_semantic_segmentation_IDD_lite/blob/main/MscAIML_Dissertation_24044407_Steven_Gerard_Mascarenhas.pdf
 
 It contains the detailed research study, methodology, experiments, and results that this codebase is built on.
 
