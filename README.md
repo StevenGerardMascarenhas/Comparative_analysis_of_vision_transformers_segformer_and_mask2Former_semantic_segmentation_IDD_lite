@@ -70,13 +70,13 @@ Follow [dataset instructions](#-dataset-idd-lite).
 
 Each notebook corresponds to an experiment.
 
-* **SegFormer**
+* **SegFormer with b0,b1 and b2 encoder backbones **
 
   * `segformer_b0_finetuned_cityscapes_with_data_augmentation.ipynb`
   * `segformer_b1_train_from_scratch_with_data_augmentation.ipynb`
   * `segformer_b2_finetuned_cityscapes_with_data_augmentation_focal_loss.ipynb`
 
-* **Mask2Former**
+* **Mask2Former with swin-tiny and swin-small encoder backbones**
 
   * `mask2former_swin_tiny_finetuned_cityscapes_with_data_augmentation.ipynb`
   * `mask2former_swin_small_trained_from_scratch_with_data_augmentation.ipynb`
