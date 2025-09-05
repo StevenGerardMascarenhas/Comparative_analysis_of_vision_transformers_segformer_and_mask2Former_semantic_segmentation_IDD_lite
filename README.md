@@ -89,17 +89,6 @@ jupyter notebook segformer_b2_finetuned_cityscapes_with_data_augmentation_focal_
 
 ---
 
-## 📊 some of the Results (Highlights)
-
-| Model                         | Training   | mIoU      | Pixel Accuracy | FPS  | Notes                  |
-| ----------------------------- | ---------- | --------- | -------------- | ---- | ---------------------- |
-| **SegFormer B0**              | Pretrained | 0.701     | 0.902          | 14.5 | Fast baseline          |
-| **SegFormer B2**              | Pretrained | 0.723     | 0.913          | 10.7 | Best SegFormer         |
-| **SegFormer B2** + Focal Loss | Pretrained | 0.742     | 0.921          | 10.4 | Best SegFormer variant |
-| **Mask2Former Tiny**          | Pretrained | 0.748     | 0.926          | 8.1  | Strong overall         |
-| **Mask2Former Small**         | Pretrained |  0.761   | 0.932           | 7.4  | Best accuracy overall  |
-| Scratch (any model)           | Scratch    | <0.35     | <0.70          | –    | Failed to generalize   |
-
 ### Key Findings
 
 * **Transfer learning is essential**: Models trained from scratch failed (IoU=0.0 on some classes).
